@@ -1,4 +1,4 @@
-function fnom(nom = 'Albert'){
-    console.log(nom + ' Raset Hernández ' + typeof fnom)
+function fdata(data = new Date()){
+    console.log(data)
 }
-fnom();
+fdata();
