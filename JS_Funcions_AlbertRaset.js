@@ -1,4 +1,4 @@
-function fdata(data = new Date()){
-    console.log(data)
+function fnom(){
+    var nom = 'Albert'
 }
-fdata();
+console.log(nom);
