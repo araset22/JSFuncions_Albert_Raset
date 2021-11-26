@@ -1,8 +1,5 @@
-//Exercici 5
-function vocal(str){
-    const contar = str.match(/[aeiou]/gi).length;
-    return contar;
+//Exercici 6
+function num(a, b, c = 5){
+    return a+b+c
 }
-const text = prompt('Introdueix un text:');
-const resultat = vocal(text);
-console.log('Vocals: ' + resultat);
+console.log(num (6,19))
