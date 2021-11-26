@@ -1,5 +1,14 @@
-//Exercici 6
+//Exercici 7
+function fdata(data = new Date()){
+    console.log(data)
+}
+
 function num(a, b, c = 5){
     return a+b+c
 }
-console.log(num (6,19))
+
+function exercici7(a, b, c){
+    fdata();
+    return num(a, b, c)
+}
+console.log(exercici7(9, 2, 44));
