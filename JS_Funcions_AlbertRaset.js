@@ -1,8 +1,7 @@
-//Exercici 9
-var num = function(a, b){
-    if (a == 30 || b == 30 || a + b == 30){
-        return true;
-    }
+//Exercici 10
+var iguals = (a, b) =>{
+    if (a === b)
+    return true
+    else return false
 }
-
-console.log(num(30, 5));
+console.log(iguals(4, 5));
