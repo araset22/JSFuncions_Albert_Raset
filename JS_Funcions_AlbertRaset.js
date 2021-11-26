@@ -1,3 +1,3 @@
-//Exercici 11
-var arrel = a => Math.sqrt(a).toFixed(2)
-console.log(arrel(3.33))
+//Exercici 12
+var minuscula = a => a.toLowerCase()
+console.log(minuscula("No se que escriure"))
