@@ -1,14 +1,8 @@
-//Exercici 7
-function fdata(data = new Date()){
-    console.log(data)
+//Exercici 8
+function num(a, b){
+    if (a ==30 || b == 30 || a + b == 30){
+        return true;
+    }
 }
 
-function num(a, b, c = 5){
-    return a+b+c
-}
-
-function exercici7(a, b, c){
-    fdata();
-    return num(a, b, c)
-}
-console.log(exercici7(9, 2, 44));
+console.log(num(30, 5));
