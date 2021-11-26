@@ -1,3 +1,12 @@
-//Exercici 12
-var minuscula = a => a.toLowerCase()
-console.log(minuscula("No se que escriure"))
+//Exercici 13
+var noNull = (a, b) => {
+    if (a != null && b == null)
+        return a
+
+    else if (a == null && b != null)
+        return b
+
+    else if (a != null && b != null)
+        return [a, b]
+}
+console.log(noNull(null, 7))
