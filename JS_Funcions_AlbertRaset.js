@@ -1,7 +1,3 @@
-//Exercici 10
-var iguals = (a, b) =>{
-    if (a === b)
-    return true
-    else return false
-}
-console.log(iguals(4, 5));
+//Exercici 11
+var arrel = a => Math.sqrt(a).toFixed(2)
+console.log(arrel(3.33))
